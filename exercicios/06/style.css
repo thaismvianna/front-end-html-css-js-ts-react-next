@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+#principal {
+    border: 1px solid red;
+    width: 920px;
+}
+
+.noticia {
+    background-color: #e5e5e5;
+    padding: 5px;
+    width: 280px;
+    margin: 7px;
+    float: right;
+}

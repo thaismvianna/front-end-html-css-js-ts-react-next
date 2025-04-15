@@ -1,52 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página principal</title>
-
-    <!--
-        Inline CSS (CSS na linha)
-        Internal CSS (CSS Interna)
-        External CSS (CSS Externa)
-    -->
+    <title>Exercício Classe e Id</title>
     <link rel="stylesheet" href="css/estilo.css">
-    
-    <style>
-        /*
-        h2 {
-            color: red;
-        }
-        */
-        
-    </style>
-
 </head>
 <body>
-    
-    <h1>Mercado Livre</h1>
-    <a href="index.html">Home</a> |
-    <a href="produtos.html">Produtos</a> |
-    <a href="contato.html">Contato</a>
 
-    <h2>Página inicial</h2>
-    <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-        Velit nemo culpa eum magni obcaecati placeat reiciendis 
-        molestias dicta incidunt, laboriosam cupiditate unde tenetur, 
-        iste ex, deleniti inventore rerum deserunt mollitia.
-    </p>
+    <!--
+        class -> é utilizada para elementos que repetem muitas vezes
+        id -> é utilizado quando o elemento é único na página
+    -->
+    <div id="topo">
+        <h1>Mobile</h1>
+        <span>15/04/2025</span>
+        <span> por: Jamilton Damasceno</span>
+    </div>
 
-    <h2>Página inicial</h2>
-    <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-        Velit nemo culpa eum magni obcaecati placeat reiciendis 
-        molestias dicta incidunt, laboriosam cupiditate unde tenetur, 
-        iste ex, deleniti inventore rerum deserunt mollitia.
-    </p>
+    <div class="curso">
+        <h3>Desenvolvimento com Android</h3>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Fugiat eius voluptates adipisci ex amet blanditiis veniam
+        </p>
+    </div>
 
-    
+    <div class="curso">
+        <h3>Desenvolvimento com iOS</h3>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Fugiat eius voluptates adipisci ex amet blanditiis veniam
+        </p>
+    </div>
+
+    <div class="curso-destaque">
+        <h3>Desenvolvimento com Flutter</h3>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Fugiat eius voluptates adipisci ex amet blanditiis veniam
+        </p>
+    </div>
+
+    <div id="rodape">
+        <span>Todos os direitos reservados</span>
+    </div>
     
 </body>
 </html>
