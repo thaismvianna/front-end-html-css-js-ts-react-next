@@ -7,9 +7,9 @@ Este repositório contém exercícios e projetos desenvolvidos ao longo do curso
 - HTML5
 - CSS3
 - JavaScript (ES6+)
-- TypeScript (em andamento)
-- React (em andamento)
-- Next.js (em andamento)
+- TypeScript 
+- React 
+- Next.js 
 - Tailwind CSS
 - Figma (prototipação)
 - API REST (para consumo de dados no projeto Airbnb)
